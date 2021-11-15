@@ -1,0 +1,298 @@
+/*css for all*/
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve {
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-blue {
+    color: #1e90ff;
+}
+
+.text-black {
+    color: black;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: #3742fa;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1e90ff;
+}
+
+b {
+    color: black;
+    text-decoration: none;
+}
+
+b:hover {
+    color: #2f3542;
+}
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #70a1ff;
+}
+
+h2 {
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.float-container {
+    position: relative;
+}
+
+.float-text {
+    position: absolute;
+    left: 500%;
+}
+
+fieldset {
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.error {
+    padding: 2%;
+    color: red;
+}
+
+.success {
+    padding: 2%;
+    color: green;
+}
+
+
+/* css for navbar*/
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.menu {
+    line-height: 100px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* css for supply search section*/
+
+.supply-search {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 6% 0;
+}
+
+.supply-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* css for Categories */
+
+.categories {
+    padding: 4% 0;
+}
+
+.box-3 {
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* css for supplies*/
+
+.supplies {
+    background-color: #ececec;
+    padding: 4%;
+}
+
+.supplies-box {
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.supplies-img {
+    width: 20%;
+    float: left;
+}
+
+.supplies-description {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.details {
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* Css for Social */
+
+.social ul {
+    list-style-type: none;
+}
+
+.social ul li {
+    display: inline;
+    padding: 1%;
+}
+
+
+/* css for order section*/
+
+.order {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-responsive {
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order-label {
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+
+/* Css for mobile */
+
+@media only screen and (max-width:768px) {
+    .logo {
+        width: 60%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .supply-search input[type="search"] {
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+    .btn {
+        width: 90%;
+        padding: 2%;
+    }
+    .supply-search {
+        padding: 10% 0;
+    }
+    .categories {
+        padding: 20% 0;
+    }
+    h2 {
+        margin-bottom: 10%;
+    }
+    .box-3 {
+        width: 95%;
+        margin: 4% auto;
+    }
+    .supplies {
+        padding: 20% 0;
+    }
+    .supplies-box {
+        width: 95%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social {
+        padding: 5% 0;
+    }
+    .order {
+        width: 100%;
+    }
+}
